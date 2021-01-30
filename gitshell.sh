@@ -32,9 +32,9 @@ else
 	  echo
 	  echo "--------------------------------------------------"
 	  echo
-	  echo "Executing => git push origin master"
-	  git push origin master
 	  read -p "Do you want to add more file in git(y/n):  " a
 	done
+echo "Executing => git push origin master"
+git push origin master
 fi
 
